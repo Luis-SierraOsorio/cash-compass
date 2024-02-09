@@ -6,24 +6,25 @@ import { RiLockPasswordLine } from "react-icons/ri";
 
 export default function SignInForm() {
   return (
-    <div id={styles["sign-in-form-container"]} className={styles.wrapper}>
+    <div id={styles.wrapper}>
       <form action="">
         <h1>Sign In</h1>
-        <div className={styles.inputContainer}>
-          <input type="text" placeholder="email" />
+        <div className={styles["input-container"]}>
+          <input type="text" placeholder="username" />
           <FaRegUser className={styles.icon}/>
         </div>
-        <div className={styles.inputContainer}>
-          <input type="text" placeholder="password" />
+
+        <div className={styles["input-container"]}>
+          <input type="password" placeholder="password" />
           <RiLockPasswordLine className={styles.icon}/>
         </div>
 
-        <div className={styles.forgotPasswordContainer}>
+        <div className={styles["forgot-password-container"]}>
             <a href="">Forgot Password?</a>
         </div>
 
         <button type="submit">Log In</button>
-        <div className={styles.registerLinkContainer}>
+        <div className={styles["register-link-container"]}>
             <p>Don't have an account? <a href="">Register</a></p>
         </div>
       </form>

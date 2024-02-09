@@ -1,1 +1,17 @@
-#body{min-height: 100vh;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../assets/images/log-in-register/background-01.jpg') no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}

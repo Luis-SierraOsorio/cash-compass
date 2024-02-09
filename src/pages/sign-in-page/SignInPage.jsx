@@ -1,11 +1,10 @@
 import SignInForm from "./components/SignInForm";
 import styles from "./SignIn.module.css"
 
-export default function SignUpOrLogIn(){
+export default function SignInPage(){
     return (
         <div id={styles.body}>
-        <h1>Sign In Page</h1>
-        <SignInForm></SignInForm>
+        <SignInForm ></SignInForm>
         </div>
     );
  }
