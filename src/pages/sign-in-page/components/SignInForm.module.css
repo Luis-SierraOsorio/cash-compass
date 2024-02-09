@@ -4,8 +4,8 @@
     border-radius: 1.5rem;
     padding: 3rem 2rem;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, .4);
+    backdrop-filter: blur(30px);
+    box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, .4);
 }
 
 h1 {
