@@ -8,8 +8,12 @@ export default function RegisterForm() {
       <form action="">
         <h1>Register</h1>
         <div className={styles["input-container"]}>
-          {/* <label htmlFor="email" aria-label="email" className={styles.noShow}>Email:</label> */}
-          <input id="email" type="text" placeholder="username / email" />
+          <input id="email" type="text" placeholder="email" />
+          <FaRegUser className={styles.icon} />
+        </div>
+
+        <div className={styles["input-container"]}>
+          <input id="email" type="text" placeholder="username" />
           <FaRegUser className={styles.icon} />
         </div>
 
