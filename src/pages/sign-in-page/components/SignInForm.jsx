@@ -10,7 +10,8 @@ export default function SignInForm() {
       <form action="">
         <h1>Sign In</h1>
         <div className={styles["input-container"]}>
-          <input type="text" placeholder="username" />
+          {/* <label htmlFor="email" aria-label="email" className={styles.noShow}>Email:</label> */}
+          <input id="email" type="text" placeholder="username / email" />
           <FaRegUser className={styles.icon}/>
         </div>
 
