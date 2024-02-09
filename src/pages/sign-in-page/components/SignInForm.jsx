@@ -16,7 +16,8 @@ export default function SignInForm() {
     console.log(data)
   }
 
-  const emailTest = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
+  // email regex code if needed
+ const emailTest = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
 
   return (
     <div id={styles.wrapper}>
@@ -24,11 +25,14 @@ export default function SignInForm() {
         <h1>Sign In</h1>
         <div className={styles["input-container"]}>
           {/* <label htmlFor="email" aria-label="email" className={styles.noShow}>Email:</label> */}
-          <input {...register("email", {
-            required: "Email is required.",
+          <input {...register("username_email", {
+            required: "Username/Email is required.",
             validate: (value) => {
-              if (!emailTest.test(value)) {
-                return "Email not valid."
+              // if the user is entering an email , validate
+              if (value.includes("@")) {
+                if(!emailTest.test(value)) {
+                  return "Email not valid."
+                }
               }
               return true
             },
@@ -36,8 +40,8 @@ export default function SignInForm() {
           <FaRegUser className={styles.icon}/>
         </div>
           {
-            errors.email && (
-              <div className={styles["validation-error"]}>{errors.email.message}</div>
+            errors.username_email && (
+              <div className={styles["validation-error"]}>{errors.username_email.message}</div>
             )
           }
         <div className={styles["input-container"]}>
