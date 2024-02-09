@@ -25,12 +25,7 @@ export default function RegisterForm() {
 
         <div className={styles["input-container"]}>
           <input type="number" placeholder="age" />
-          {/* <RiLockPasswordLine className={styles.icon} /> */}
         </div>
-
-        {/* <div className={styles["forgot-password-container"]}>
-          <a href="">Forgot Password?</a>
-        </div> */}
 
         <button type="submit">Register</button>
         <div className={styles["register-link-container"]}>
