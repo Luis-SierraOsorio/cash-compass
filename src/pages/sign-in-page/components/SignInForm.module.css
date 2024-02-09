@@ -91,3 +91,8 @@ p a {
 .register-link-container a:hover {
     text-decoration: underline;
 }
+
+.validation-error{
+    font-family: sans-serif;
+    color: red;
+}
