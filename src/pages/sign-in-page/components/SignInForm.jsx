@@ -26,7 +26,7 @@ export default function SignInForm() {
 
         <button type="submit">Log In</button>
         <div className={styles["register-link-container"]}>
-            <p>Don't have an account? <a href="">Register</a></p>
+            <p>Don't have an account? <a href="/register">Register</a></p>
         </div>
       </form>
     </div>
