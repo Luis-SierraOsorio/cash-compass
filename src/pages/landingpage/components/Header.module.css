@@ -1,0 +1,16 @@
+
+.header-container{
+    justify-content: space-between;
+    background-color: #b2ff59;
+    padding: 10px;
+}
+
+.button-container{
+    height: 45px;
+    width: 150px;
+    margin: 95%
+}
+
+.text-center{
+    align-self: center;
+}
