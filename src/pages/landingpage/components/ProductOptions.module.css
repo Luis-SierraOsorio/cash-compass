@@ -1,0 +1,96 @@
+.productoptions-background{
+    position: relative;
+    background-color: white;
+    padding: 250px;
+}
+
+.productoptions-background h1{
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.productoptions-background h2{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 63%;
+    left: 17%;
+}
+
+.productoptions-background p1{
+    position: absolute;
+    font-size: 20px;
+    top: 70%;
+    left: 10%;
+    line-height: 30px;
+}
+
+.productoptions-background h3{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 63%;
+    left: 47%;
+}
+
+.productoptions-background p2{
+    position: absolute;
+    font-size: 20px;
+    top: 70%;
+    left: 40%;
+    line-height: 30px;
+}
+.productoptions-background h4{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 63%;
+    left: 78%;
+}
+
+.productoptions-background p3{
+    position: absolute;
+    font-size: 20px;
+    top: 70%;
+    left: 70%;
+    line-height: 30px;
+}
+
+.image1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 30%;
+    left: 15%;
+    background-image: url(../../../assets/images/landing-page/budget_icon.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.image2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 30%;
+    left: 45%;
+    background-image: url(../../../assets/images/landing-page/stats_icon.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+.image3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 30%;
+    left: 75%;
+    background-image: url(../../../assets/images/landing-page/security_icon.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.border-container{
+    border-radius: 5px; /* Separate the value and add a semicolon */
+    border: 2px solid red; 
+}
